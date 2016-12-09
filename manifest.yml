@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: poppo-iot
+  host: poppo-iot
+  disk_quota: 1024M
+  services:
+  - poppo-iot-cloudantNoSQLDB
+  - poppo-iot-iotf-service
